@@ -31,3 +31,10 @@ print(text)
 words = text.split()
 
 print(words[0])
+
+
+user_input = input("Enter names separated by commas: ")
+
+names = [name.strip() for name in user_input.split(",")]
+
+print(names)
